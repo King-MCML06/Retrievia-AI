@@ -1,0 +1,16 @@
+langchain-ollama
+langchain-core
+langgraph
+pgvector
+psycopg2-binary
+pypdf
+python-docx
+fastapi
+uvicorn
+python-multipart
+requests
+python-dotenv
+bcrypt
+PyJWT
+groq
+duckduckgo-search
