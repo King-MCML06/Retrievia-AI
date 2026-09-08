@@ -157,8 +157,8 @@ Documents          Audio / Video (transcribed)
 | **Agent Framework** | [LangChain](https://www.langchain.com/) + [LangGraph](https://www.langchain.com/langgraph) | ReAct agent, tool orchestration, memory checkpointing |
 | **Local LLM** | [Ollama](https://ollama.com/) — `llama3.1` via `langchain-ollama` | Chat, summarization, Q&A (temperature 0.3) |
 | **Embeddings** | [Nomic Atlas API](https://www.nomic.ai/) — `nomic-embed-text-v1.5` | 768-dim vector embeddings |
-| **Audio Transcription** | [Groq Cloud](https://groq.com/) — `openai/gpt-oss-20b` | GPU-free speech-to-text |
-| **Audio MoM Extraction** | Groq — `llama-3.1-8b-instant` | Structured meeting minutes JSON |
+| **Audio Transcription** | [Groq Cloud](https://groq.com/) — `whisper-large-v3` | GPU-free speech-to-text |
+| **Audio MoM Extraction** | Groq — `openai/gpt-oss-20b` | Structured meeting minutes JSON |
 | **Database** | PostgreSQL 16 + [pgvector](https://github.com/pgvector/pgvector) | Conversations, messages, vector storage |
 | **DB Driver** | `psycopg2-binary` | Native SQL, no ORM |
 | **Auth** | `bcrypt` + `PyJWT` (HS256) | Password hashing, JWT tokens |
